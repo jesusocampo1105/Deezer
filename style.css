@@ -1,0 +1,109 @@
+.section-conexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-conexion h1{
+    font-size: 85px;
+}
+.text-conexion h3{
+    color: gray;
+}
+.text-conexion h3 b{
+    color: black;
+}
+       
+.text-conexion button{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff  51%, #00dbde  100%);
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 16px;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 26px;
+    border: none;
+}
+.cell-conexion img{
+    padding: 58px;
+}
+
+.text-conexion button:hover{
+    cursor: pointer;
+    background: black;
+}
+.section-soundtrack{
+    display: block;
+    text-align-last: center;
+}
+.soundtrack-text h1{
+    font-size: 85px;
+    text-align: center;
+}
+.soundtrack-text h3{
+    color: gray;
+}
+.soundtrack-text h3 b{
+    color: black;
+}
+.soundtrack-text button{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff  51%, #00dbde  100%);
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 16px;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 26px;
+    border: none;
+    margin-bottom: 23px;
+}
+.section-recommendation{
+    display: block;
+    text-align-last: center;
+}
+.section-recommendation h1{
+    font-size: 85px;
+    text-align: center;
+}
+.recommendation-text h3{
+    color: gray;
+    margin-bottom: 55px;
+}
+.recommendation-text h3 b{
+    color: black;
+}
+.recommendation-text h4{
+    color: red;
+    margin-bottom: 60px;
+}
+.section-songcatcher{
+    display: block;
+    text-align-last: center;
+}
+.songcatcher-text h1{
+    font-size: 85px;
+    text-align: center;
+}
+.songcatcher-text h3{
+    color: gray;
+}
+.songcatcher-text h3 b{
+    color: black;
+}
+.songcatcher-text button{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff  51%, #00dbde  100%);
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 16px;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 26px;
+    border: none;
+    margin-bottom: 23px;
+}
+.songcatcher-image{
+    display: flex;
+    justify-content: space-evenly;
+}
+.songcatcher-image img{
+    width: 65%;
+}
