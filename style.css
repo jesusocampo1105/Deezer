@@ -16,20 +16,34 @@ header{
 }
 
 .registrarse{
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff  51%, #00dbde  100%);
-        padding: 15px 45px;
+    background-color: #2f97c9;
+        padding: 14px 30px;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         background-size: 200% auto;
         color: rgb(255, 255, 255);            
         border-radius: 26px;
         border: none;
-    }
-    
+        margin-left: 20px;
+        font-size: 15px;
+}
+
+.inicio_sesion{
+    background-color: none;
+        padding: 12px 25px;
+        text-align: center;
+        font-size: 14px;
+        background-size: 200% auto;
+        color: #2f97c9;            
+        border-radius: 26px;
+        border: #2f97c9 2px solid;
+        font-size: 15px;
+}
 
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 /* a:hover{
@@ -44,12 +58,9 @@ a:active{
 
 nav a{
     font-weight: 600;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
-.descargar{
-
-}
 
 .text_boton{
     width: 100px;
@@ -73,7 +84,7 @@ body{
 
 .banner_deezer{
     width: 100vw;
-    height: 600px;
+    height: auto;
     position: relative;
     background-color: rgba(255, 255, 255, 0);
     display: flex;
@@ -81,25 +92,48 @@ body{
 }
 
 .fondo{
-    position: absolute;
+    max-width: 100%;
+    height: 100%;
 }
 
 .selec_suscrip{
-    width: 250px;
+    width: 230px;
     height: 40px;
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 .selec{
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    background-color: bisque;
-    border-radius: 20px;
-    margin-left: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.selec_text1{
+    background-image: linear-gradient(to right, #a125ff 0%, #00dbde 51%, #a125ff 100%);
+        padding: 0px 20px;
+        text-align: center;
+        margin-left: 2%;
+        margin-top: 1.57%;
+        font-size: 11px;
+        background-size: 200% auto;
+        color: rgb(255, 255, 255);            
+        border-radius: 26px;
+        border: none;
+}
+
+.selec_text2{
+    font-size: 11px;
+    margin-top: 1.57%;
+    margin-right: -20%;
+}
+
+.selec_text3{
+    padding: 0px 25px;
+    font-size: 11px;
+    margin-top: 1.57%;
+    margin-right: 4%;
+    color: #217fdb;
 }
 
 .texto_negro{
