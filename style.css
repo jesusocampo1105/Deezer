@@ -1,0 +1,243 @@
+@font-face{
+    font-family: mabry;
+    src: url(/imagenes/Mabry-Pro-Medium.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "mabry";
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    margin-right: 80px;
+}
+
+.registrarse{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff  51%, #00dbde  100%);
+        padding: 15px 45px;
+        text-align: center;
+        font-size: 16px;
+        background-size: 200% auto;
+        color: rgb(255, 255, 255);            
+        border-radius: 26px;
+        border: none;
+    }
+    
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* a:hover{
+    border-bottom: 2px solid;
+    background: rgba(0, 0, 0, 0);
+} */
+
+a:active{
+    background: bisque;
+    color: rgba(0, 0, 0, 0);
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+.descargar{
+
+}
+
+.text_boton{
+    width: 100px;
+    height: 150px;
+    background-color: bisque;
+    margin-right: 10px;
+    top: -500px;
+    z-index: 30;
+
+}
+
+body{
+    margin: 0%;
+    font-family: "mabry";
+}
+
+.logo_deezer{
+    padding-left: 6%;
+    padding-top: 1%;
+}
+
+.banner_deezer{
+    width: 100vw;
+    height: 600px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    position: absolute;
+}
+
+.selec_suscrip{
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 1%;
+}
+
+.selec{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 1%;
+}
+
+.texto_negro{
+    color: black;
+    position: absolute;
+    top: 15%;
+    font-size: x-large;
+    z-index: 10;
+}
+
+.texto_blanco{
+    color: white;
+    position: absolute;
+    top: 25%;
+    font-size: xx-large;
+}
+
+.parrafo{
+    color: white;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.ing_correo{
+    width: 400px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 10;
+    top: 62%;
+}
+
+.text_ing_correo{
+    text-align: left;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans";
+}
+
+.lista{
+    color: white;
+    position: absolute;
+    top: 75%;
+    z-index: 10;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.ver_mas{
+    color: white;
+    position: absolute;
+    top: 89%;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+
+.titulo{
+    width: 650px;
+    height: 200px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.color_text{
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.caja_texto1{
+    width: 320px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 50px;
+    position: relative;
+    top: 200px;
+    text-align: justify;
+}
+
+.caja_texto2{
+    width: 320px;
+    height: 200px;
+    background-color: rgba(255, 228, 196, 0);
+    margin-right: 50px;
+    position: relative;
+    top: 250px;
+    text-align: justify;
+}
+
+.titulo2{
+    width: 850px;
+    height: 200px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+.textos_centrados{
+    width: 400px;
+    height: 100px;
+    color: rgba(0, 0, 0, 0.61);
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 300px;
+    font-size: medium;
+}
+
+.caja_img{
+    width: 100vw;
+    height: 662px;
+    background-image: linear-gradient(white, #d0d0d0);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    margin-left: auto;
+    margin-right: auto;
+}
