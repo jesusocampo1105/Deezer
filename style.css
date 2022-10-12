@@ -1,0 +1,295 @@
+
+@font-face{
+    font-family: mabry;
+    src: url(/imagenes/Mabry-Pro-Medium.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "mabry";
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    margin-right: 80px;
+}
+
+
+.registrarse{
+    background-color: #2f97c9;
+        padding: 14px 30px;
+        text-align: center;
+        font-size: 14px;
+        background-size: 200% auto;
+        color: rgb(255, 255, 255);            
+        border-radius: 26px;
+        border: none;
+        margin-left: 20px;
+        font-size: 15px;
+}
+
+.inicio_sesion{
+    background-color: none;
+        padding: 12px 25px;
+        text-align: center;
+        font-size: 14px;
+        background-size: 200% auto;
+        color: #2f97c9;            
+        border-radius: 26px;
+        border: #2f97c9 2px solid;
+        font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+a:active{
+    background: bisque;
+    color: rgba(0, 0, 0, 0);
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+
+.text_boton{
+    width: 100px;
+    height: 150px;
+    background-color: bisque;
+    margin-right: 10px;
+    top: -500px;
+    z-index: 30;
+
+}
+
+body{
+    margin: 0%;
+    font-family: "mabry";
+}
+
+.logo_deezer{
+    padding-left: 6%;
+    padding-top: 1%;
+}
+
+.banner_deezer{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    max-width: 100%;
+    height: 100%;
+}
+
+.selec_suscrip{
+    width: 230px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 2%;
+}
+
+.selec{
+    display: flex;
+    justify-content: space-between;
+}
+.selec_text1{
+    background-image: linear-gradient(to right, #a125ff 0%, #00dbde 51%, #a125ff 100%);
+        padding: 0px 20px;
+        text-align: center;
+        margin-left: 2%;
+        margin-top: 1.57%;
+        font-size: 11px;
+        background-size: 200% auto;
+        color: rgb(255, 255, 255);            
+        border-radius: 26px;
+        border: none;
+}
+
+.selec_text2{
+    font-size: 11px;
+    margin-top: 1.57%;
+    margin-right: -20%;
+}
+
+.selec_text3{
+    padding: 0px 25px;
+    font-size: 11px;
+    margin-top: 1.57%;
+    margin-right: 4%;
+    color: #217fdb;
+}
+
+.texto_negro{
+    color: black;
+    position: absolute;
+    top: 15%;
+    font-size: x-large;
+    z-index: 10;
+}
+
+.texto_blanco{
+    color: white;
+    position: absolute;
+    top: 25%;
+    font-size: xx-large;
+}
+
+.parrafo{
+    color: white;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.ing_correo{
+    width: 400px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 10;
+    top: 62%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_ing_correo{
+    text-align: left;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans";
+}
+
+.circulo{
+    width: 45px;
+    height: 45px;
+    background-color: #ef5466;
+    border-radius: 50px;
+    margin-top: 1.3%;
+    margin-right: 1%;
+    justify-content: center;
+}
+
+.img_arrow{
+    margin-top: 18%;
+    margin-left: 19%;
+}
+
+.lista{
+    color: white;
+    position: absolute;
+    top: 75%;
+    z-index: 10;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.ver_mas{
+    color: white;
+    position: absolute;
+    top: 89%;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+
+.img_arrow_down{
+    transform: rotate(90deg);
+}
+
+.titulo{
+    width: 650px;
+    height: 200px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.color_text{
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.caja_texto1{
+    width: 320px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 50px;
+    position: relative;
+    top: 200px;
+    text-align: justify;
+}
+
+.caja_texto2{
+    width: 320px;
+    height: 200px;
+    background-color: rgba(255, 228, 196, 0);
+    margin-right: 50px;
+    position: relative;
+    top: 250px;
+    text-align: justify;
+}
+
+.titulo2{
+    width: 850px;
+    height: 200px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+.textos_centrados{
+    width: 400px;
+    height: 100px;
+    color: rgba(0, 0, 0, 0.61);
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 300px;
+    font-size: medium;
+}
+
+.caja_img{
+    width: 100vw;
+    height: 662px;
+    background-image: linear-gradient(white, #d0d0d0);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    margin-left: auto;
+    margin-right: auto;
+}
